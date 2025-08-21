@@ -164,7 +164,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
     gap: 1.5rem; /* opcional, se quiser reduzir o espaçamento também */
   }
 
-  .card{padding: 1rem;}
+  .card{padding: 0.5rem;}
   .card h3 { margin-bottom: 0.2rem; }
   .card p { margin-bottom: 0.5rem; }
 
@@ -181,7 +181,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
     margin: 0 auto;   /* centraliza o card */
   }
   .card p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
   }
 }
