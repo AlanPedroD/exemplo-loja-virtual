@@ -181,7 +181,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
 }
 
 @media(max-width: 361px){
-  .add-to-cart{
+  .card .add-to-cart{
     font-size: 1rem;
     padding: 0.6rem 1rem;
     color: #25D366;
