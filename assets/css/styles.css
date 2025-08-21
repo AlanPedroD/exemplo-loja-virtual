@@ -166,9 +166,15 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
 
 }
 
-@media(max-width: 540px){
+
+@media(max-width: 541px){
   .grid-produtos {
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-template-columns: 1fr; /* força uma coluna */
+  }
+  .grid-produtos .card {
+    width: 100%;
+    max-width: 400px; /* diminui o tamanho do card sem quebrar o layout */
+    margin: 0 auto;   /* centraliza o card */
   }
   .card p{
     font-size: 1.8rem;
