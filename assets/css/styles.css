@@ -165,3 +165,13 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
   }
 
 }
+
+@media(max-width: 540px){
+  .grid-produtos {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+  .card p{
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
