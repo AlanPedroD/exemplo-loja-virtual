@@ -58,7 +58,12 @@ function addToCart(e) {
   updateBadge();
   updateTotal();
   renderCartItems();
-  cartSlide.classList.add("active"); // abre carrinho ao adicionar
+
+    // Só abre automático em telas grandes (>=768px)
+  if (window.innerWidth >= 768) {
+    cart.classList.add("active");
+  }
+
 }
 
 // Atualizar badge
