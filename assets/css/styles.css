@@ -181,3 +181,11 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
     font-weight: 500;
   }
 }
+
+@media(max-width: 539px){
+  .grid-produtos .card {
+    width: 100%;
+    max-width: 300px; /* diminui o tamanho do card sem quebrar o layout */
+    margin: 0 auto;   /* centraliza o card */
+  }
+}
