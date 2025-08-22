@@ -162,7 +162,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
   .hero-content p { font-size: 1.4rem; }
   .btn-primary { font-size: 1.4rem; }
   .hero-content .btn{
-    width: 100%;
+    min-width: 100%;
   }
 
   .grid-produtos {
