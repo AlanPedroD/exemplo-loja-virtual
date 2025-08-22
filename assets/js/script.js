@@ -46,7 +46,11 @@ function renderProducts() {
 
 // Adicionar ao carrinho
 function addToCart(e) {
+  
   const card = e.target.closest(".card");
+  showToast("Adicionado com sucesso!", card);
+
+
   const id = card.dataset.id;
   const nome = card.querySelector("h3").textContent;
   const preco = parseFloat(card.dataset.preco);
@@ -145,3 +149,19 @@ window.addEventListener("scroll", () => { btnTop.style.display = window.scrollY 
 
 // Inicializar
 renderProducts();
+
+function showToast(message, cardElement) {
+  const toast = document.createElement("div");
+  toast.className = "toast";
+  toast.innerHTML = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+      <path fill="currentColor" d="M13.485 1.929a1 1 0 0 1 0 1.414L6.707 10.121a1 1 0 0 1-1.414 0L2.515 7.343a1 1 0 1 1 1.414-1.414l2.121 2.122 6.364-6.364a1 1 0 0 1 1.414 0z"/>
+    </svg>
+    <span>${message}</span>
+  `;
+
+  cardElement.appendChild(toast);
+
+  setTimeout(() => toast.classList.add("show"), 10);
+  setTimeout(() => toast.remove(), 2000);
+}

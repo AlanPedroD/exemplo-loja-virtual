@@ -91,6 +91,7 @@ nav ul.menu li a:hover { color: #e60023; }
 .grid-produtos .card {
   background: #fff; padding: 1.5rem; border-radius: 8px;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
 }
 .grid-produtos .card:hover { transform: translateY(-5px); box-shadow: 0 5px 12px rgba(0,0,0,0.15); }
 .card img { width: 100%; border-radius: 5px; margin-bottom: 1rem; }
@@ -127,6 +128,33 @@ nav ul.menu li a:hover { color: #e60023; }
 #cart-total { font-weight: bold; font-size: 1.6rem; }
 #checkout { padding: 1rem; background: #e60023; color: #fff; border: none; font-size: 1.6rem; border-radius: 5px; cursor: pointer; }
 #checkout:hover { background: #c5001f; }
+
+/* Mensagem de Adicionado Com sucesso ! */
+.toast {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #25D366;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 10;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px);
+}
+/* -------------------------------- */
 
 /* Seções sobre e contato */
 .sobre, .contato { padding: 6rem 2rem; max-width: 1140px; margin: 0 auto; }
