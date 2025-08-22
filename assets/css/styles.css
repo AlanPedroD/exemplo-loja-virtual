@@ -17,12 +17,16 @@ header {
 nav ul.menu { display: flex; list-style: none; gap: 2rem; align-items: center; }
 nav ul.menu li a { text-decoration: none; color: #333; font-size: 1.6rem; transition: color 0.3s; }
 nav ul.menu li a:hover { color: #e60023; }
+nav ul li.cart-icon a:hover {
+  color: inherit; /* mantém a cor original sem mudar */
+}
 
 /* Carrinho com badge */
 .cart-icon { position: relative; }
+.cart-icon i {font-size: 1.8rem;}
 .cart-icon .badge {
   position: absolute; top: -0.4rem; right: -0.6rem;
-  background: #e60023; color: #fff; width: 1.4rem; height: 1.4rem;
+  background: #000; color: #fff; width: 1.4rem; height: 1.4rem;
   font-size: 1rem; display: flex; align-items: center; justify-content: center;
   border-radius: 50%; font-weight: bold;
 }
