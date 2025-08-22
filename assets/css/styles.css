@@ -170,21 +170,31 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
 
 }
 
-@media(max-width: 539px){
+/* @media(max-width: 539px){
   .grid-produtos {
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    gap: 1.5rem; /* opcional, se quiser reduzir o espaçamento também */
+    gap: 1.5rem; 
   }
   .card{padding: 0.3rem;}
   .card h3 { font-size: 1.4rem; }
   .card p { font-size: 1.2rem; }
-}
+} */
 
 @media(max-width: 361px){
+
+  .grid-produtos {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 1.5rem;
+  }
+  .card{padding: 0.3rem;}
+  .card h3 { font-size: 1.4rem; }
+  .card p { font-size: 1.2rem; }
+
   .card .add-to-cart{
     font-size: 1rem;
     padding: 0.6rem 1rem;
     color: #25D366;
+    background-color: #222;
   }
 }
 
