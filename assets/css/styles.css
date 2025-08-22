@@ -63,11 +63,11 @@ nav ul.menu li a:hover { color: #e60023; }
 }
 
 .hero-content .btn {
-  display: block; padding: 1.3rem 4rem; background: #2F2E2E; color: #fff;
+  display: inline-block; padding: 1.3rem 4rem; background: #2F2E2E; color: #fff;
   font-size: 1.6rem; border-radius: 5px; text-decoration: none; transition: background 0.3s;
   text-transform: uppercase;
-  width: 40%;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
 }
 
 .hero-content .btn:hover{
@@ -159,12 +159,14 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
   .hero{
     background-image: url(../imagens/imagem-hero-mobile.jpg);
   }
+  .hero-content .btn{
+    padding: 1.3rem 2rem;
+    min-width: 100%;
+    max-width: 430px;
+  }
   .hero-content h1 { font-size: 2.2rem; }
   .hero-content p { font-size: 1.4rem; }
   .btn-primary { font-size: 1.4rem; }
-  .hero-content .btn{
-    min-width: 100%;
-  }
 
   .grid-produtos {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
