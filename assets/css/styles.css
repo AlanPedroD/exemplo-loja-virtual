@@ -115,7 +115,13 @@ nav ul.menu li a:hover { color: #e60023; }
 #cart-items { flex: 1; overflow-y: auto; margin-bottom: 1rem; }
 .cart-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; font-size: 1.5rem; }
 .cart-item .remove-item {
-  background: none; border: none; color: #e60023; font-size: 1.8rem; cursor: pointer; transition: color 0.3s;
+  font-size: 0; /* esconde o &times; */
+  width: 20px;
+  height: 20px;
+  background: url('https://cdn-icons-png.flaticon.com/512/1214/1214428.png') no-repeat center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
 }
 .cart-item .remove-item:hover { color: #c5001f; }
 #cart-total { font-weight: bold; font-size: 1.6rem; }
