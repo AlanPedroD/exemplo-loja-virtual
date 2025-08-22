@@ -63,10 +63,11 @@ nav ul.menu li a:hover { color: #e60023; }
 }
 
 .hero-content .btn {
-  display: inline-block; padding: 1.3rem 4rem; background: #2F2E2E; color: #fff;
+  display: block; padding: 1.3rem 4rem; background: #2F2E2E; color: #fff;
   font-size: 1.6rem; border-radius: 5px; text-decoration: none; transition: background 0.3s;
   text-transform: uppercase;
-  width: 30%;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .hero-content .btn:hover{
