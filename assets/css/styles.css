@@ -177,9 +177,11 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1.5rem;
   }
+  .grid-produtos .card:hover{
+    transform: none;
+  }
   .card{padding: 0.3rem;}
   .card h3 { font-size: 1.4rem; }
-  .card p { font-size: 1.2rem; }
 
   .card .add-to-cart{
     font-size: 1.2rem;
