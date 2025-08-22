@@ -66,8 +66,12 @@ nav ul li.cart-icon a:hover {
   text-align: center;
   color: #fff;
   padding: 0 1rem;
+  background: rgba(0, 0, 0, 0.4); /* fundo preto semitransparente */
+  border-radius: 0.5rem;           /* cantos arredondados, opcional */
   z-index: 2; /* conteúdo fica acima do overlay */
 }
+
+
 
 .hero-content h1 {
   font-size: 5rem;
@@ -77,6 +81,7 @@ nav ul li.cart-icon a:hover {
 .hero-content p {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  font-weight: 500;
 }
 
 .hero-content .btn {
@@ -85,6 +90,7 @@ nav ul li.cart-icon a:hover {
   text-transform: uppercase;
   width: 100%;
   max-width: 200px;
+  margin-bottom: 1.6rem;
 }
 
 .hero-content .btn:hover{
@@ -237,8 +243,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
 @media(max-width: 430px){
   .logo{padding: 0.5rem 1rem;}
   .hero-content p{
-    font-size: 1.6rem;
-    color: #25D366;
+    font-size: 1.8rem;
   }
   .produtos { 
     padding: 6rem 1rem 4rem 1rem;
