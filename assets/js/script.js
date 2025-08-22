@@ -17,9 +17,9 @@ const products = [
   { id: "2", nome: "Calça Jeans", preco: 149.90, img: "assets/imagens/calca-jeans-02.jpg" },
   { id: "3", nome: "Calca Casual", preco: 199.90, img: "assets/imagens/calca-casual.jpg" },
   { id: "4", nome: "Calca Casual nv", preco: 249.90, img: "assets/imagens/calca-casual-02.jpg" },
-  { id: "5", nome: "Vestido Estiloso", preco: 179.90, img: "assets/imagens/vestido-01.jpg" },
+  { id: "5", nome: "Vestido Fashion", preco: 179.90, img: "assets/imagens/vestido-01.jpg" },
   { id: "6", nome: "Conjunto Academia", preco: 179.90, img: "assets/imagens/conj-academia-01.jpg" },
-  { id: "7", nome: "Conjunto Academia nv2", preco: 179.90, img: "assets/imagens/conj-academia-04.jpg" },
+  { id: "7", nome: "Conjunto Academia nv", preco: 179.90, img: "assets/imagens/conj-academia-04.jpg" },
   { id: "8", nome: "Conjunto praia", preco: 179.90, img: "assets/imagens/moda-praia-01.jpg" }
 ];
 

@@ -72,11 +72,11 @@ nav ul.menu li a:hover { color: #e60023; }
 }
 
 .btn-primary {
-  display: inline-block; padding: 1rem 2rem; background: #e60023; color: #fff;
+  display: inline-block; padding: 1rem 2rem; background-color: #222; color: #25D366;
   font-size: 1.6rem; border-radius: 5px; text-decoration: none; transition: background 0.3s;
 }
 
-.btn-primary:hover { background: #c5001f; }
+.btn-primary:hover { background: #25D366; color: #fff; }
 
 /* Produtos */
 .produtos { padding: 6rem 2rem 4rem 2rem; max-width: 1140px; margin: 0 auto; }
@@ -182,13 +182,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
   .card p { font-size: 1.2rem; }
 
   .card .add-to-cart{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.6rem 1rem;
-    color: #25D366;
-    background-color: #222;
-  }
-  .btn-primary{
-    background-color: #222;
-    color: #25D366;
   }
 }
