@@ -171,7 +171,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
 }
 
 
-@media(max-width: 376px){
+@media(max-width: 430px){
 
   .grid-produtos {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -186,5 +186,9 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
     padding: 0.6rem 1rem;
     color: #25D366;
     background-color: #222;
+  }
+  .btn-primary{
+    background-color: #222;
+    color: #25D366;
   }
 }
