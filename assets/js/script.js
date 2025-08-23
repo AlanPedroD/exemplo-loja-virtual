@@ -15,8 +15,8 @@ let cart = [];
 const products = [
   { id: "1", nome: "Calça Fashion", preco: 99.90, img: "assets/imagens/calca-fem-01.jpg" },
   { id: "2", nome: "Calça Jeans", preco: 73.90, img: "assets/imagens/calca-jeans-02.jpg" },
-  { id: "3", nome: "Calca Casual", preco: 85.90, img: "assets/imagens/calca-casual.jpg" },
-  { id: "4", nome: "Calca Casual nv", preco: 79.90, img: "assets/imagens/calca-casual-02.jpg" },
+  { id: "3", nome: "Calça Casual", preco: 85.90, img: "assets/imagens/calca-casual.jpg" },
+  { id: "4", nome: "Calça Casual nv", preco: 79.90, img: "assets/imagens/calca-casual-02.jpg" },
   { id: "5", nome: "Vestido Fashion", preco: 69.90, img: "assets/imagens/vestido-01.jpg" },
   { id: "6", nome: "Conjunto Academia", preco: 74.90, img: "assets/imagens/conj-academia-01.jpg" },
   { id: "7", nome: "Conjunto Academia nv", preco: 65.90, img: "assets/imagens/conj-academia-04.jpg" },
