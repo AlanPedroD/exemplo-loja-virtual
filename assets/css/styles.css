@@ -249,7 +249,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
 }
 
 @media(max-width: 430px){
-  .logo{padding: 0.3rem 1rem; font-size: 2rem;}
+  .logo{padding: 0.3rem 1rem; font-size: 1.6rem;}
   .hero-content p{
     font-size: 1.8rem;
   }
