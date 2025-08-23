@@ -84,15 +84,19 @@ nav ul li.cart-icon a:hover {
   font-weight: 500;
 }
 
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
 .hero-content .btn {
-  display: inline-block; padding: 1.3rem 4rem; background: #2F2E2E; color: #fff;
+  display: flex; justify-content: center; align-items: center; padding: 1.4rem 1rem; background: #2F2E2E; color: #fff;
   font-size: 1.6rem; border-radius: 5px; text-decoration: none; transition: background 0.3s;
   text-transform: uppercase;
-  width: 100%;
-  max-width: 200px;
+  width: 50%;
   margin-bottom: 1.6rem;
   font-family: "Raleway", sans-serif; 
   letter-spacing: 0.5rem;
+  text-align: center;
 }
 
 .hero-content .btn:hover{
