@@ -91,6 +91,8 @@ nav ul li.cart-icon a:hover {
   width: 100%;
   max-width: 200px;
   margin-bottom: 1.6rem;
+  font-family: "Raleway", sans-serif; 
+  letter-spacing: 0.5rem;
 }
 
 .hero-content .btn:hover{
@@ -218,7 +220,7 @@ footer { background: #222; color: #fff; padding: 2rem; text-align: center; font-
     background-image: url(../imagens/imagem-hero-mobile.jpg);
   }
   .hero-content .btn{
-    padding: 1.3rem 2rem;
+    padding: 1.3rem 1.2rem;
     min-width: 100%;
     max-width: 430px;
   }
